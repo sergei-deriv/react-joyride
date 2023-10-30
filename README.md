@@ -20,13 +20,13 @@ Talk about it on the [Discussions board](https://github.com/gilbarbara/react-joy
 ## Setup
 
 ```bash
-npm i react-joyride
+npm i react-joyride-scrollparent
 ```
 
 ## Getting Started
 
 ```jsx
-import Joyride from 'react-joyride';
+import Joyride from 'react-joyride-scrollparent';
 
 export class App extends React.Component {
   state = {
@@ -81,14 +81,6 @@ Clone (or fork) this repo on your machine, navigate to its location in the termi
 npm install
 npm link # link your local repo to your global packages
 npm run watch # build the files and watch for changes
-```
-
-Now clone https://github.com/gilbarbara/react-joyride-demo and run:
-
-```bash
-npm install
-npm link react-joyride # just link your local copy into this project's node_modules
-npm start
 ```
 
 **Start coding!** 🎉
