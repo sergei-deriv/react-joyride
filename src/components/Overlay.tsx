@@ -32,7 +32,7 @@ export default class JoyrideOverlay extends React.Component<OverlayProps, State>
   state = {
     isScrolling: false,
     mouseOverSpotlight: false,
-    showSpotlight: true,
+    showSpotlight: false,
   };
 
   componentDidMount() {
